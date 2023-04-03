@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Gym Landing Page</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		.header {
+			background-color: #f2f2f2;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+
+		.main {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		}
+
+		.section {
+			flex: 1;
+			margin: 20px;
+			padding: 20px;
+			background-color: #f2f2f2;
+			text-align: center;
+			box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		}
+
+		.section h2 {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+
+		.subscription {
+			background-color: #fff;
+			padding: 20px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.1);
+			text-align: center;
+		}
+
+		.subscription h2 {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+
+		.subscription p {
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+
+		.subscription form {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.subscription label {
+			font-size: 18px;
+			margin-right: 10px;
+		}
+
+		.subscription input[type="email"] {
+			padding: 10px;
+			font-size: 18px;
+			border: none;
+			border-radius: 5px;
+			margin-right: 10px;
+			flex: 1;
+		}
+
+		.subscription button[type="submit"] {
+			padding: 10px 20px;
+			background-color: #333;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			font-size: 18px;
+			cursor: pointer;
+		}
+
+		.image {
+			flex: 1;
+			background-image: url('gym-image.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 600px;
+			position: relative;
+		}
+
+		.image:before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.5);
+		}
+
+		.image h2 {
+			color: #fff;
+			font-size: 36px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+		}
+
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.footer p {
+			margin: 0;
+			font-size: 14px;
+		}
+
+		

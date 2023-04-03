@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+*{
+    margin: 3px 5px;padding: 0px 9px;
+    max-height: 44vh;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 70%;
+    height: 58vh;
+}
+.topright{
+    width: 30%;
+    max-height: 30vh;
+    
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.text-red{
+    color: rgb(121, 13, 13);
+}
+.logo{
+    font-size: 2.5rem;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.section2 h1{
+    font-size: 1.7rem;
+}
+
+.font-italic{
+    font-style: italic;
+}
+
+.highlighted{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
